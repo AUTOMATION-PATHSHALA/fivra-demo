@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Run Ansible Role
+      shell: ansible-playbook fivra.yml -i staging/host_fivra
+
