@@ -18,7 +18,5 @@ jobs:
         python -m pip install --upgrade pip
         pip install ansible==2.9.2 requests
     - name: run exporters playbook
-      env:
-        DO_API_KEY: ${{ secrets.DO_API_KEY }}
       run: |
         ansible-playbook -i statging/host_fivra fivra.yml
