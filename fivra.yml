@@ -1,4 +1,4 @@
 ---
-- hosts: test_fivra
+- hosts: localhost
   roles:
     - helloworld
