@@ -19,4 +19,4 @@ jobs:
         pip install ansible==2.9.2 requests
     - name: run exporters playbook
       run: |
-        ansible-playbook -i staging/host_fivra fivra.yml
+        ansible-playbook fivra.yml
